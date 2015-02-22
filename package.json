@@ -1,0 +1,25 @@
+{
+  "name": "before-brunch",
+  "version": "0.0.5",
+  "description": "Plugin that runs commands before Brunch compiling.",
+  "main": "./lib/index",
+  "author": "Artem Yavorsky",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "prepublish": "coffee -o lib/ src/"
+  },
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yavorsky/before-brunch"
+  },
+  "keywords": [
+    "brunch",
+    "before",
+    "plugin",
+    "commands",
+    "post-compile"
+  ],
+  "devDependencies": {}
+}
